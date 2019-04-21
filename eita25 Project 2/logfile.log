@@ -1,0 +1,14 @@
+Feb 27, 2018 11:40:45 AM server.Database <init>
+INFO: ------------------Database initiated--------------------
+Feb 27, 2018 11:40:54 AM server.Database login
+INFO: 1 logged in and was granted token: 1519731654943367892
+Feb 27, 2018 11:40:55 AM server.Database append
+INFO: 1 read journal nr.1
+Feb 27, 2018 11:40:55 AM server.Database append
+INFO: 1 read journal nr.2
+Feb 27, 2018 11:40:56 AM server.Database write
+INFO: 1 edited journal nr.1
+Feb 27, 2018 11:41:08 AM server.Database append
+INFO: 1 read journal nr.1
+Feb 27, 2018 11:41:08 AM server.Database append
+INFO: 1 read journal nr.2

@@ -1,0 +1,82 @@
+.root{
+	-fx-text-fill: #FF3838;
+	-primaryColor : #25373A;
+	-secondaryColor : #164852;
+	-detaiColor : #495E67;
+	-fx-background-color: #282E33;
+	-fx-font-weight: bold;
+	-fx-base: black;
+}
+
+.secondaryColor{
+	-fx-background-color: -secondaryColor;
+}
+
+.label {
+    -fx-text-fill: #DCE1E5;
+}
+
+.button{
+	-fx-text-fill: #FF3838;
+	-fx-background-color: -primaryColor;
+	-fx-background-radius: 5.0;
+    -fx-border-color: -detaiColor;
+	-fx-border-radius: 5.0;
+    -fx-border-width: 2.0;
+}
+
+.button:hover {
+  -fx-text-fill: #FF3838;
+  -fx-background-color: -detaiColor;
+  -fx-border-color: #FFFFFF;
+}
+
+.button:pressed {
+	 -fx-border-color: -primaryColor;
+}
+
+.button:disabled {
+	-fx-background-color: -detaiColor;
+	-fx-border-color: -primaryColor;
+	-fx-opacity: 0.5;
+}
+
+.text-field {
+	-fx-background-radius: 6;
+}
+
+.text-field:disabled {
+	-fx-opacity: 1.0;
+	-fx-background-color: -detaiColor;
+}
+
+.text-area {
+	-fx-background-radius: 16;
+}
+
+.text-area:disabled,
+.text-area *:disabled {
+    -fx-opacity: 1;
+    -fx-background-color: -secondaryColor;
+}
+
+.imageBorder{
+    -fx-border-color: -detaiColor;
+	-fx-border-radius: 10.0;
+    -fx-border-width: 6.0;
+}
+
+.table-view {
+	-fx-background-color: rgba(0.0, 0.0, 0.0, 0.1);
+	-fx-border-color: -detaiColor;
+	-fx-border-radius: 2.0;
+    -fx-border-width: 6.0;
+}
+
+.table-view .column-header{
+	-fx-background-color: -detaiColor;
+}
+
+#modeText{
+	-fx-font-weight: normal;
+}
